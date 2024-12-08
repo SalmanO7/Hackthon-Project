@@ -9,7 +9,7 @@ const HeroSectionSecond = () => {
   return (
     <div className="bg-gray-100 max-w-full flex flex-col justify-center items-center p-10 px-5 sm:px-10 md:px-[60px] lg:px-[30px] xl:px-[70px] 2xl:px-[100px]">
       <h2 className="uppercase text-blue-950">edittor's pick</h2>
-      <p className="text-sm text-gray-400 pb-10">
+      <p className="text-sm text-gray-400 pb-10 text-center">
         Problems trying to resolve the conflict between{" "}
       </p>
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 px-18 gap-y-6">
