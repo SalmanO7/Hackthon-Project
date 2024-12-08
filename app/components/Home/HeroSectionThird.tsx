@@ -15,11 +15,11 @@ const HeroSectionThird = () => {
       <div className="flex justify-center items-center flex-col py-20">
         <p className="text-gray-400">Featured Products</p>
         <h3 className="font-semibold">BESTSELLER PRODUCTS</h3>
-        <p className="text-[11px] md:text-sm">
+        <p className="text-[11px] md:text-sm text-center">
           Problems trying to resolve the conflict between{" "}
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-20 gap-x-10 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-20 md:gap-x-5 lg:gap-x-10 gap-8">
         <div className="flex flex-col justify-center gap-2 items-center">
           <Image src={Img} alt="Cover img" />
           <h2 className="font-semibold">Graphic</h2>
