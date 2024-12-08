@@ -11,7 +11,7 @@ import Img7 from "@/public/assets/product-cover-5 (7).png";
 
 const HeroSectionThird = () => {
   return (
-    <div className="w-full px-36">
+    <div className="w-full px-4 sm:px-16  md:px-36">
       <div className="flex justify-center items-center flex-col py-20">
         <p className="text-gray-400">Featured Products</p>
         <h3 className="font-semibold">BESTSELLER PRODUCTS</h3>
