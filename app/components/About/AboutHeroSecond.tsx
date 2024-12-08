@@ -8,7 +8,7 @@ import CardImg3 from "@/public/assets/col-md-4 (7).png";
 const AboutHeroSecond = () => {
   return (
     <div className="px-10 sm:px-15 md:px-[60px] lg:px-[50px] xl:px-[90px] 2xl:px-[120px]">
-      <div className="flex justify-between items-center gap-4 py-20">
+      <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-y-12 gap-4 py-20">
         <div className="flex flex-col justify-center items-start">
           <p className="text-red-500">Problems trying</p>
           <h2 className="text-xl font-semibold">
@@ -22,7 +22,7 @@ const AboutHeroSecond = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-14">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold">15K</h1>
           <p className="text-xs md:text-sm">Happy Customers</p>
