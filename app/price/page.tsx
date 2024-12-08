@@ -1,10 +1,12 @@
 import React from "react";
-import Price from "../pages/Price";
+import PriceHome from "../components/Price/PriceHome";
+import PriceFAQ from "../components/Price/PriceFAQ";
 
 const pricing = () => {
   return (
     <>
-      <Price />
+      <PriceHome />
+      <PriceFAQ/>
     </>
   );
 };
