@@ -113,7 +113,7 @@ const Navbar = () => {
             </Link>
             
             <Link
-              href="/About"
+              href="/detail"
               className="text-gray-700 font-medium hover:text-blue-600"
             >
               Blog
