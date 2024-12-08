@@ -1,16 +1,12 @@
 import React from "react";
-import PriceHome from "../components/Price/PriceHome";
-import AboutNavbar from "../pages/AboutNavbar";
-import PriceFAQ from "../components/Price/PriceFAQ";
+import Price from "../pages/Price";
 
-const Price = () => {
+const pricing = () => {
   return (
     <>
-      <AboutNavbar />
-      <PriceHome />
-      <PriceFAQ />
+      <Price />
     </>
   );
 };
 
-export default Price;
+export default pricing;

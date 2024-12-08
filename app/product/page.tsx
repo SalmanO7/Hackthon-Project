@@ -5,8 +5,6 @@ import AboutNavbar from "../pages/AboutNavbar";
 const Products = () => {
   return (
     <>
-      <AboutNavbar />
-      <AboutProducts />
     </>
   );
 };
