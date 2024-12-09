@@ -9,7 +9,7 @@ const HeroSection = () => {
         backgroundImage: "url('/assets/shop-hero-1-product-slide-1.jpg')",
       }}
     >
-      <div className="text-white flex flex-col justify-center items-start pt-28 gap-6 px-6 sm:px-10 md:px-20 xl:px-32">
+      <div className="text-white h-screen flex flex-col justify-center md:pb-10  xl:pb-14 2xl:pb-28 items-start md:items-start  gap-6 px-6 sm:px-10 md:px-20 xl:px-32">
         <p className="uppercase text-sm">Summer 2020</p>
         <h2 className="text-base sm:text-2xl md:text-4xl font-bold">
           New Collection
