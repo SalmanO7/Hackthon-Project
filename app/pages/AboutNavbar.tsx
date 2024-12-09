@@ -88,6 +88,7 @@ export default function AboutNavbar() {
             href="/price"
             className="text-gray-700 font-medium hover:text-blue-600"
           >
+            
             Pricing
           </Link>
           <Link
